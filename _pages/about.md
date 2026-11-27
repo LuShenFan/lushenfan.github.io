@@ -2,33 +2,42 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: B.Eng. Student in Communication Engineering, <a href="https://www.nuist.edu.cn/" target="_blank">Nanjing University of Information Science and Technology (NUIST)</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>School of Electronics & Information Engineering</p>
+    <p>Nanjing University of Information Science and Technology</p>
+    <p>Nanjing, Jiangsu, China</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false # set to true if you want to display news items from `_news`
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an undergraduate student majoring in **Communication Engineering** at **Nanjing University of Information Science and Technology (NUIST)** (Class of 2027), where I currently hold a GPA of **3.909/5.0** (ranked **2nd** in my major).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests lie at the intersection of **neurodynamics**, **memristive neuromorphic circuits**, and **hardware-accelerated brain-inspired computing**. Specifically, I focus on:
+* **Nonlinear Dynamics & Bifurcation Analysis**: Investigating comb-shaped chaos, fast–slow dynamics, and coexisting firing behaviors in modified Hindmarsh–Rose and ion-channel-inspired memristive neuron models.
+* **Neuromorphic Hardware Implementation**: Designing and validating analog/digital neuromorphic circuits on **FPGA**, **FPAA**, **STM32/ESP32**, and discrete **PCB** platforms.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+### Selected Honors & Competitions
+* **First-Class University Scholarship**, **Changwang Star (长望之星)**, and **Merit Student**, NUIST
+* **National First Prize** (Team Leader), China Undergraduate Life Sciences Contest
+* **National Second Prize** (Image Algorithm Lead, FPGA Track), National College Student Embedded Chip and System Design Competition
+* **Provincial First Prize**, Chinese Mathematics Competitions (CMC, National & Jiangsu Division)
+* **National Bronze Award**, First National University Innovation Transformation Contest
+
+### Open-Source & Technical Skills
+* **Open-Source Contribution**: Co-authored the [*FPAA User Manual*](https://github.com/shanhaibuqi/FPAA) technical report and hardware reference repository.
+* **Hardware & Programming**: Proficient in **Python**, **C**, and **MATLAB**; experienced in embedded & reconfigurable hardware development (**FPGA**, **FPAA**, **STM32**, **ESP32**) as well as analog/digital circuit simulation and **PCB design** (**LTspice**, **Multisim**).
