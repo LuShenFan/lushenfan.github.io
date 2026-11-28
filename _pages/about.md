@@ -2,22 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: B.Eng. Student in Communication Engineering, <a href="https://www.nuist.edu.cn/" target="_blank">Nanjing University of Information Science and Technology (NUIST)</a>
+subtitle: Incoming Master's Student at <a href="https://www.seu.edu.cn/" target="_blank">Southeast University (SEU)</a> · B.Eng. Student at <a href="https://www.nuist.edu.cn/" target="_blank">NUIST</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>School of Electronics & Information Engineering</p>
-    <p>Nanjing University of Information Science and Technology</p>
+    <p>Incoming Master's Student (Electronic Information, 0854)</p>
+    <p>Southeast University (SEU)</p>
     <p>Nanjing, Jiangsu, China</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: false # set to true if you want to display news items from `_news`
+  enabled: false
   scrollable: true
   limit: 5
 
@@ -25,7 +25,7 @@ latest_posts:
   enabled: false
 ---
 
-I am an undergraduate student majoring in **Communication Engineering** at **Nanjing University of Information Science and Technology (NUIST)** (Class of 2027), where I currently hold a GPA of **3.909/5.0** (ranked **2nd** in my major).
+I am an undergraduate student majoring in **Communication Engineering** at **Nanjing University of Information Science and Technology (NUIST)** (Class of 2027, GPA: **3.909/5.0**, ranked **2nd** in my major), and an incoming Master's student in **Electronic Information (0854)** at the **School of Information Science and Technology, Southeast University (SEU)**.
 
 My research interests lie at the intersection of **neurodynamics**, **memristive neuromorphic circuits**, and **hardware-accelerated brain-inspired computing**. Specifically, I focus on:
 * **Nonlinear Dynamics & Bifurcation Analysis**: Investigating comb-shaped chaos, fast–slow dynamics, and coexisting firing behaviors in modified Hindmarsh–Rose and ion-channel-inspired memristive neuron models.
