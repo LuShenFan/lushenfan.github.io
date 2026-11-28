@@ -55,29 +55,79 @@
     height: auto !important;
     text-align: center !important;
   }
-  /* 期刊名下方单独一行的分区与 IF 标签 */
-  .paper-meta {
-    display: block !important;
-    font-weight: bold !important;
-    color: var(--global-theme-color) !important;
-    font-size: 0.93rem !important;
-    margin-top: 6px !important;
-    margin-bottom: 6px !important;
+
+  /* 调整右侧信息流排版顺序，让 DOI/HTML 按钮紧跟在分区与 IF 同一行后面 */
+  .publications ol.bibliography li .row > div:not(.abbr) {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    align-content: flex-start !important;
   }
-  /* Abstract 正文限制为最多 6 行，超出显示省略号 */
+  .publications ol.bibliography li .title {
+    order: 1 !important;
+    width: 100% !important;
+  }
+  .publications ol.bibliography li .author {
+    order: 2 !important;
+    width: 100% !important;
+  }
+  .publications ol.bibliography li .periodical {
+    order: 3 !important;
+    width: 100% !important;
+  }
+  .publications ol.bibliography li .periodical + .periodical {
+    display: contents !important;
+  }
+
+  /* 分区与 IF 标签（位于第 4 行左侧） */
+  .paper-meta {
+    order: 4 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    font-weight: bold !important;
+    color: #800080 !important;
+    font-size: 0.93rem !important;
+    margin: 6px 12px 6px 0 !important;
+  }
+
+  /* DOI 与 HTML 按钮（紧跟在分区与 IF 右侧同一行） */
+  .publications ol.bibliography li .links {
+    order: 5 !important;
+    display: inline-flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    gap: 6px !important;
+    margin: 6px 0 !important;
+  }
+  .publications ol.bibliography li .links a.btn {
+    padding: 1px 10px !important;
+    font-size: 0.8rem !important;
+    line-height: 1.4 !important;
+    margin: 0 !important;
+  }
+
+  /* Abstract 标题与正文统一字色，限制最多 6 行并显示省略号 */
   .paper-abstract {
+    order: 6 !important;
+    width: 100% !important;
     display: -webkit-box !important;
     -webkit-line-clamp: 6 !important;
     -webkit-box-orient: vertical !important;
     overflow: hidden !important;
     text-overflow: ellipsis !important;
-    color: var(--global-text-color-light) !important;
+    color: var(--global-text-color) !important;
     font-size: 0.92rem !important;
     line-height: 1.45 !important;
-    margin-bottom: 6px !important;
+    margin-top: 2px !important;
+    margin-bottom: 4px !important;
   }
   .paper-abstract strong {
     color: var(--global-text-color) !important;
+  }
+  .publications ol.bibliography li .abstract,
+  .publications ol.bibliography li .bibtex {
+    order: 7 !important;
+    width: 100% !important;
   }
 </style> </div> </footer> <script>
   window.alFolio = {
