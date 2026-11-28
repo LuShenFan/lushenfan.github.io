@@ -49,3 +49,9 @@ My research interests lie at the intersection of **computational neuroscience**,
 ### Open-Source & Technical Skills
 * **Open-Source Contribution**: Co-authored the [*FPAA User Manual*](https://github.com/shanhaibuqi/FPAA) technical report and hardware reference repository.
 * **Hardware & Programming**: Proficient in **Python**, **C**, and **MATLAB**; experienced in embedded & reconfigurable hardware development (**FPGA**, **FPAA**, **STM32**, **ESP32**) as well as analog/digital circuit simulation and **PCB design** (**LTspice**, **Multisim**).
+
+### Academic Conferences
+* **2026 IEEE International Conference on Memristive Computing and Applications (ICMCA)**, Nanjing, China *(Nov. 2026)*<br>
+  Contributed Paper & Conference Participant
+* **The 9th National Conference on Chaos and Nonlinear Circuits** (Circuits and Systems Society, Chinese Institute of Electronics), Dalian, China *(Apr. 2026)*<br>
+  **Oral Presentation** (Abstract Published)
