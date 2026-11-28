@@ -25,11 +25,19 @@ latest_posts:
   enabled: false
 ---
 
-I am an undergraduate student majoring in **Communication Engineering** at **Nanjing University of Information Science and Technology (NUIST)** (Class of 2027, GPA: **3.909/5.0**, ranked **2nd** in my major), and an incoming Master's student in **Electronic Information (0854)** at the **School of Information Science and Technology, Southeast University (SEU)**.
+I am an undergraduate student majoring in **Communication Engineering** at **Nanjing University of Information Science and Technology (NUIST)** (Class of 2027, GPA: **3.909/5.0**, ranked **1st** in my major), and an incoming Master's student in **Electronic Information (0854)** at the **School of Information Science and Technology, Southeast University (SEU)**.
 
-My research interests lie at the intersection of **neurodynamics**, **memristive neuromorphic circuits**, and **hardware-accelerated brain-inspired computing**. Specifically, I focus on:
-* **Nonlinear Dynamics & Bifurcation Analysis**: Investigating comb-shaped chaos, fast–slow dynamics, and coexisting firing behaviors in modified Hindmarsh–Rose and ion-channel-inspired memristive neuron models.
-* **Neuromorphic Hardware Implementation**: Designing and validating analog/digital neuromorphic circuits on **FPGA**, **FPAA**, **STM32/ESP32**, and discrete **PCB** platforms.
+### Education
+* **Southeast University (SEU)**, Nanjing, China *(Sept. 2027 – Present)*<br>
+  M.Eng. in Electronic Information (0854), School of Information Science and Technology
+* **Nanjing University of Information Science and Technology (NUIST)**, Nanjing, China *(Sept. 2023 – June 2027)*<br>
+  B.Eng. in Communication Engineering (GPA: 3.909/5.0, Rank: 1st)
+
+### Research Interests
+My research interests lie at the intersection of **computational neuroscience**, **spiking neural networks (SNNs)**, **neurodynamics**, and **neuromorphic hardware**. Specifically, I focus on:
+* **Spiking Neural Networks (SNNs) & Brain-Inspired Computing**: Exploring biologically plausible spiking neuron models, temporal information coding, and efficient learning algorithms for low-power neuromorphic intelligence.
+* **Computational Neuroscience & Neurodynamics**: Modeling single-neuron and coupled-network dynamics, and analyzing bifurcation mechanisms, fast–slow dynamics, and coexisting firing behaviors in modified Hindmarsh–Rose and ion-channel-inspired memristive models.
+* **Neuromorphic Hardware & Circuit Implementation**: Designing and validating analog/digital neuromorphic circuits and hardware accelerators on **FPGA**, **FPAA**, **STM32/ESP32**, and discrete **PCB** platforms.
 
 ### Selected Honors & Competitions
 * **First-Class University Scholarship**, **Changwang Star (长望之星)**, and **Merit Student**, NUIST
