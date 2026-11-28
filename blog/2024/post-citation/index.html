@@ -30,17 +30,17 @@
     height: auto !important;
     text-align: center !important;
   }
-  .paper-abstract {
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    color: var(--global-text-color-light);
-    font-size: 0.92rem;
-    line-height: 1.45;
-    margin-top: 4px;
-    margin-bottom: 4px;
+  /* 自动将论文下方的备注/摘要限制为最多 3 行，超出部分显示省略号 */
+  .publications ol.bibliography li .periodical + .periodical {
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    color: var(--global-text-color-light) !important;
+    font-size: 0.92rem !important;
+    line-height: 1.45 !important;
+    margin-top: 4px !important;
   }
 </style> </div> </footer> <script>
   window.alFolio = {
