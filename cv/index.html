@@ -35,17 +35,29 @@
     height: auto !important;
     text-align: center !important;
   }
-  /* 自动将论文下方的备注/摘要限制为最多 3 行，超出部分显示省略号 */
-  .publications ol.bibliography li .periodical + .periodical {
+  /* 期刊名下方单独一行的分区与 IF 标签 */
+  .paper-meta {
+    display: block !important;
+    font-weight: bold !important;
+    color: var(--global-theme-color) !important;
+    font-size: 0.93rem !important;
+    margin-top: 6px !important;
+    margin-bottom: 6px !important;
+  }
+  /* Abstract 正文限制为最多 6 行，超出显示省略号 */
+  .paper-abstract {
     display: -webkit-box !important;
-    -webkit-line-clamp: 3 !important;
+    -webkit-line-clamp: 6 !important;
     -webkit-box-orient: vertical !important;
     overflow: hidden !important;
     text-overflow: ellipsis !important;
     color: var(--global-text-color-light) !important;
     font-size: 0.92rem !important;
     line-height: 1.45 !important;
-    margin-top: 4px !important;
+    margin-bottom: 6px !important;
+  }
+  .paper-abstract strong {
+    color: var(--global-text-color) !important;
   }
 </style> </div> </footer> <script>
   window.alFolio = {
