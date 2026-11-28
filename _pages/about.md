@@ -6,8 +6,8 @@ subtitle: Incoming Master's Student at <a href="https://www.seu.edu.cn/" target=
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: photo.png # 如果你上传的是 photo.png，这里就改成 photo.png
+  image_circular: false # 改成 true 会自动裁剪为圆形头像
   more_info: >
     <p>Incoming Master's Student (Electronic Information, 0854)</p>
     <p>Southeast University (SEU)</p>
