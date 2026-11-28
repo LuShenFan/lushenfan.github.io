@@ -10,8 +10,25 @@ contact_note: >
   Feel free to reach out via email for academic discussions or research collaboration.
 description: >
   Personal academic homepage of Shenfan Lu, Undergraduate Student in Communication Engineering at Nanjing University of Information Science and Technology (NUIST).
-footer_text: >
+footer_text: |
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  <style>
+    body, h1, h2, h3, h4, h5, h6, p, a, li, td, th, blockquote,
+    .navbar, .post-title, .post-description,
+    .publications, .abstract, .bibtex {
+      font-family: "Times New Roman", Times, "Noto Serif SC", "SimSun", serif !important;
+    }
+    .publications ol.bibliography li .abbr abbr,
+    .publications ol.bibliography li .abbr .badge {
+      white-space: normal !important;
+      line-height: 1.25 !important;
+      padding: 5px 6px !important;
+      display: inline-block !important;
+      width: 100% !important;
+      height: auto !important;
+      text-align: center !important;
+    }
+  </style>
 keywords: Shenfan Lu, Neurodynamics, Memristive Neuron, Neuromorphic Computing, FPGA, Nonlinear Dynamics, NUIST
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🧠 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
